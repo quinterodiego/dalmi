@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #267486;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+a, button, span, p, label, button[type="submit"] {
+    color: #fff;
+}
+
+.navbar-brand img {
+    width:60px;
+    height:60px;
+}
+
+.logo-cover {
+    width: 500px;
+    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
+    background-image: url('./../../img/cubo.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.red {
+background-color:#FF735A;
+}
+
+.blue {
+    background-color: #267486;
+}
+
+.yellow {
+    background-color: #FAB452;
+}
+
+#crear-usuario button {
+    background-color: #267486;
+}
+
+.salir {
+    font-size: 20px;
+    cursor: pointer;
+    color: #000;
+}
+
+.salir:hover {
+    opacity: 0.8;
+}
+
+
+.btn-white {
+    border: 1px solid #267486;
+}
+
+.btn-white:hover {
+    color: #fff;
+    background-color: #aaa;
+}
+
+.btn-white a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#mensaje-iniciar-sesion:hover{
+    opacity: 0.7;
+}
+
+#btn-iniciar-sesion, #btn-usuario-json, #btnPresupuesto, #btnAgregarCuenta, #btn-ingresar, #btn-enviar-comentario {
+    background-color: #267486;
+    color: #fff;
+}
+
+#btn-iniciar-sesion:hover, #btn-crear-cuenta:hover, #btn-enviar-comentario:hover {
+    opacity: 0.7;
+}
+
+#mensaje-crear-cuenta {
+    color: #267486;
+}
+
+#mensaje-crear-cuenta:hover{
+    opacity: 0.7;
+}
+
+#form-contacto textarea {
+    height: 200px;
+}
+
+.rotated{
+	animation-name: rotation;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes rotation {
+  0% {
+    transform:rotate(0deg);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
+}
